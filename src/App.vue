@@ -9,4 +9,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+@font-face {
+  font-family: "Karla";
+  src: url(./assets/fonts/Karla.ttf) format("truetype");
+}
+#app {
+  font-family: "Karla";
+}
+</style>
