@@ -1,6 +1,6 @@
 <template>
-  <div class="p-4 rounded-t-md bg-primary-100 border-b-4 border-primary-500 text-left">
-    <p class="text-primary-600">
+  <div class="p-4 rounded-md" :class="wrapperClass">
+    <p :class="textClass">
       {{ alertMessage }}
     </p>
   </div>
@@ -10,7 +10,9 @@
 export default {
   name: "AppAlert",
   props: {
-    alertMessage: String
-  }
+    alertMessage: String,
+    wrapperClass: String,
+    textClass: String,
+  },
 };
 </script>
