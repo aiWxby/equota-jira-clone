@@ -10,8 +10,8 @@
         </p>
       </div>
     </div>
-    <p class="text-sm font-medium text-gray-400">
-      Please use trello and designs in Dribble as refence and carry on...
+    <p class="text-[15px] font-medium text-gray-400">
+      Please use trello and designs in Dribble as refence. And carry on...
     </p>
     <img
       src="https://picsum.photos/300"
@@ -22,14 +22,14 @@
     <div class="flex items-center space-x-4">
       <div class="flex items-center space-x-1.5">
         <p
-          class="text-sm font-medium text-gray-400 overflow-hidden max-w-[10ch]"
+          class="text-[15px] font-medium text-gray-400 overflow-hidden max-w-[10ch]"
         >
           docs.google.com
         </p>
       </div>
       <div class="flex items-center space-x-1.5">
         <p
-          class="text-sm font-medium text-gray-400 overflow-hidden max-w-[10ch]"
+          class="text-[15px] font-medium text-gray-400 overflow-hidden max-w-[10ch]"
         >
           main.psd
         </p>
@@ -55,7 +55,7 @@
             d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"
           />
         </svg>
-        <p class="text-sm font-medium text-gray-400">3</p>
+        <p class="text-[15px] font-medium text-gray-400">3</p>
       </div>
       <div class="flex items-center space-x-1">
         <img
