@@ -1,9 +1,16 @@
 <template>
-  <div class="h-full w-80 bg-white p-6"></div>
+  <div class="h-full w-80 bg-white p-6">
+    <SideBarMenuList />
+  </div>
 </template>
 
 <script>
+import SideBarMenuList from "./SideBarMenuList.vue";
+
 export default {
   name: "TheSideBar",
+  components: {
+    SideBarMenuList,
+  },
 };
 </script>
