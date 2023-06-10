@@ -3,7 +3,10 @@
     <h3 class="text-[15px] font-bold text-gray uppercase" :class="titleClass">
       {{ sectionTitle }}
     </h3>
-    <div class="flex flex-col space-y-6" :class="taskListClass"></div>
+    <div
+      class="flex flex-col space-y-6 overflow-y-auto"
+      :class="taskListClass"
+    ></div>
   </div>
 </template>
 
@@ -18,3 +21,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+* {
+  scrollbar-width: none;
+  scrollbar-color: #98a2b3;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  display: none;
+}
+</style>
