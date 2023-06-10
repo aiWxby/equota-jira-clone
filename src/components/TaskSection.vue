@@ -1,6 +1,6 @@
 <template>
   <div class="w-80 flex flex-col space-y-8" :class="wrapperClass">
-    <h3 class="text-[15px] font-bold text-gray" :class="titleClass">
+    <h3 class="text-[15px] font-bold text-gray uppercase" :class="titleClass">
       {{ sectionTitle }}
     </h3>
     <div class="flex flex-col space-y-6" :class="taskListClass"></div>
