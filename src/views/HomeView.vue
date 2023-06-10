@@ -4,7 +4,7 @@
       <div class="text-center space-y-2">
         <h1 class="text-5xl text-gray-600 font-bold">eQuota</h1>
         <h3 class="text-lg text-gray-600">
-          Jira Clone Task <span class="text-indigo">by Ertuğrul Elibol</span>
+          Jira Clone Task by <span class="text-indigo">Ertuğrul Elibol</span>
         </h3>
       </div>
       <p class="text-justify text-gray-600">
