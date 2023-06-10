@@ -17,3 +17,31 @@
     @apply bg-gray-100;
   }
 }
+
+@layer components {
+  .sidebar-menu-item {
+    @apply w-full flex items-center justify-between py-3 px-2 rounded-lg hover:bg-gray-100 transition-colors duration-300;
+  }
+  .sidebar-menu-item .sidebar-menu-item_content {
+    @apply flex items-center space-x-3;
+  }
+  .sidebar-menu-item .sidebar-menu-item_icon {
+    @apply text-gray-500;
+  }
+  .sidebar-menu-item .sidebar-menu-item_title {
+    @apply text-gray-500 font-bold text-base;
+  }
+  .sidebar-menu-item .sidebar-menu-item_misc {
+    @apply text-gray-500;
+  }
+
+  a.exact-active-page .sidebar-menu-item {
+    @apply bg-gray-100;
+  }
+  a.exact-active-page .sidebar-menu-item_title {
+    @apply text-gray-800;
+  }
+  a.exact-active-page .sidebar-menu-item_icon {
+    @apply text-gray-800;
+  }
+}

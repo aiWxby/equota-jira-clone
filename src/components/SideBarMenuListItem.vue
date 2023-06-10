@@ -1,17 +1,17 @@
 <template>
   <button
-    class="w-full flex items-center justify-between py-3 px-2 rounded-lg hover:bg-gray-100 transition-colors duration-300"
+    class="sidebar-menu-item"
     :class="wrapperClass"
   >
-    <div class="flex items-center space-x-3">
-      <div class="text-gray-500" :class="iconClass">
+    <div class="sidebar-menu-item_content">
+      <div class="sidebar-menu-item_icon" :class="iconClass">
         <slot name="icon"> </slot>
       </div>
-      <p class="text-gray-500 font-bold text-base" :class="contentClass">
+      <p class="sidebar-menu-item_title" :class="contentClass">
         {{ content }}
       </p>
     </div>
-    <div class="text-gray-500" :class="slotClass">
+    <div class="sidebar-menu-item_misc" :class="slotClass">
       <slot></slot>
     </div>
   </button>
