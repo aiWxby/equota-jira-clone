@@ -27,7 +27,7 @@
       </svg>
     </side-bar-menu-list-item>
     <div class="flex flex-col justify-between h-full">
-      <div class="space-y-1 w-full">
+      <div class="flex flex-col space-y-1">
         <RouterLink :to="{ name: 'home' }">
           <side-bar-menu-list-item content="Home">
             <template v-slot:icon>
