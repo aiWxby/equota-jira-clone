@@ -1,7 +1,10 @@
 <template>
-  <div id="app" class="h-screen">
-    <div class="h-full">
-      <TheSideBar />
+  <div id="app">
+    <div class="h-screen flex">
+      <div class="h-full">
+        <TheSideBar />
+      </div>
+      <div class="w-full p-20"></div>
     </div>
   </div>
 </template>
