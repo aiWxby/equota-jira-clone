@@ -1,4 +1,5 @@
 import Vue from "vue";
+import { makeFirstLetterUppercase } from "@/helpers/stringOptimisers";
 
 /*                                   Routing                                  */
 import VueRouter from "vue-router";
@@ -26,6 +27,11 @@ const router = new VueRouter({
   routes,
   linkActiveClass: "active-page",
   linkExactActiveClass: "exact-active-page",
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = `eQuota Jira Clone - ${makeFirstLetterUppercase(to.name)}`;
+  next();
 });
 
 export default router;
