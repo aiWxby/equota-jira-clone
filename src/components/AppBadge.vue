@@ -4,7 +4,7 @@
     :class="wrapperClass"
   >
     <p class="font-bold text-sm text-gray-600" :class="textClass">
-      Development
+      {{ content }}
     </p>
   </div>
 </template>
@@ -13,6 +13,7 @@
 export default {
   name: "AppBadge",
   props: {
+    content: String,
     textClass: String,
     wrapperClass: String,
   },
