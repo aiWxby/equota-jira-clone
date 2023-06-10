@@ -1,5 +1,5 @@
 <template>
-  <div class="w-80 flex flex-col space-y-8" :class="wrapperClass">
+  <div class="w-80 flex flex-col space-y-8 flex-shrink-0" :class="wrapperClass">
     <h3 class="text-[15px] font-bold text-gray uppercase" :class="titleClass">
       {{ sectionTitle }}
     </h3>
