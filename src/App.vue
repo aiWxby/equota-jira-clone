@@ -1,11 +1,20 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <div class="h-screen flex">
+      <div class="h-full">
+        <TheSideBar />
+      </div>
+      <div class="w-full p-20"></div>
+    </div>
+  </div>
 </template>
 
 <script>
+import TheSideBar from "./components/TheSideBar.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: { TheSideBar },
 };
 </script>
 
