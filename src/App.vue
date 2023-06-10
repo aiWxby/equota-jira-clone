@@ -4,7 +4,9 @@
       <div class="h-full">
         <TheSideBar />
       </div>
-      <div class="w-full p-20"></div>
+      <div class="w-full p-20">
+        <RouterView />
+      </div>
     </div>
   </div>
 </template>
