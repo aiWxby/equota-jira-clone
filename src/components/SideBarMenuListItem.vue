@@ -11,9 +11,9 @@
         {{ content }}
       </p>
     </div>
-    <!--
-      TODO: Bu kısma badge gelecek. Props'lar ile kontrol edilecek ve ona göre içine değer yazdırılacak.
-     -->
+    <div class="text-gray-500" :class="slotClass">
+      <slot></slot>
+    </div>
   </button>
 </template>
 
@@ -25,7 +25,7 @@ export default {
     iconClass: String,
     content: String,
     contentClass: String,
-    badgeClass: String,
+    slotClass: String,
   },
 };
 </script>
