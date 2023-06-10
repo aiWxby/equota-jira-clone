@@ -1,5 +1,7 @@
 <template>
-  <div id="app"></div>
+  <div id="app" class="h-screen">
+    <div class="h-full"></div>
+  </div>
 </template>
 
 <script>
