@@ -66,6 +66,7 @@
                 />
               </svg>
             </template>
+            <AppBadge content="2" />
           </side-bar-menu-list-item>
         </RouterLink>
       </div>
@@ -98,11 +99,13 @@
 
 <script>
 import SideBarMenuListItem from "./SideBarMenuListItem.vue";
+import AppBadge from "./AppBadge.vue";
 
 export default {
   name: "SideBarMenuList",
   components: {
     SideBarMenuListItem,
+    AppBadge,
   },
 };
 </script>
