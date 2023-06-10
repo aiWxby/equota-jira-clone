@@ -1,6 +1,6 @@
 <template>
   <button
-    class="flex items-center justify-between py-3 px-2 rounded-lg hover:bg-gray-100 transition-colors duration-300"
+    class="w-full flex items-center justify-between py-3 px-2 rounded-lg hover:bg-gray-100 transition-colors duration-300"
     :class="wrapperClass"
   >
     <div class="flex items-center space-x-3">
