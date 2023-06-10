@@ -21,7 +21,7 @@
       -->
       <a href="https://github.com/aiWxby/equota-jira-clone" target="_blank">
         <button
-          class="px-5 py-1.5 text-white rounded-md bg-indigo hover:bg-indigo-600 border border-indigo-600 hover:border-indigo-600 focus:ring focus:ring-offset-indigo-400 transition-colors duration-300"
+          class="px-5 py-1.5 text-white rounded-md bg-gray-600 hover:bg-indigo border border-gray-700 hover:border-indigo-600 focus:ring focus:ring-offset-indigo-400 transition-colors duration-300"
         >
           Projeye Git
         </button>
