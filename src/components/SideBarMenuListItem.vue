@@ -4,8 +4,10 @@
     :class="wrapperClass"
   >
     <div class="flex items-center space-x-3">
-      <slot name="icon" :class="iconClass"></slot>
-      <p class="text-gray-800 font-bold text-base" :class="contentClass">
+      <div class="text-gray-500" :class="iconClass">
+        <slot name="icon"> </slot>
+      </div>
+      <p class="text-gray-500 font-bold text-base" :class="contentClass">
         {{ content }}
       </p>
     </div>
