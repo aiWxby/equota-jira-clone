@@ -19,6 +19,7 @@
 }
 
 @layer components {
+  /* --------------------------------- SideBar -------------------------------- */
   .sidebar-menu-item {
     @apply w-full flex items-center justify-between py-3 px-2 rounded-lg hover:bg-gray-100 transition-colors duration-300;
   }
@@ -44,4 +45,21 @@
   a.exact-active-page .sidebar-menu-item_icon {
     @apply text-gray-800;
   }
+  /* -------------------------------------------------------------------------- */
+
+  /* ---------------------------------- Badge --------------------------------- */
+  .badge {
+    @apply inline-block rounded-md px-3 py-1.5 bg-gray-100;
+  }
+  .badge_content {
+    @apply font-bold text-sm text-gray-600;
+  }
+
+  a.exact-active-page .badge {
+    @apply bg-gray-800;
+  }
+  a.exact-active-page .badge_content {
+    @apply text-white;
+  }
+  /* -------------------------------------------------------------------------- */
 }
