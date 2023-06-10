@@ -1,13 +1,17 @@
 <template>
   <div id="app" class="h-screen">
-    <div class="h-full"></div>
+    <div class="h-full">
+      <TheSideBar />
+    </div>
   </div>
 </template>
 
 <script>
+import TheSideBar from "./components/TheSideBar.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: { TheSideBar },
 };
 </script>
 
