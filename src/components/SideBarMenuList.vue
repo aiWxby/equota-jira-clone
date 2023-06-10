@@ -1,7 +1,4 @@
 <template>
-  <!-- 
-    TODO: Add router links
-  -->
   <div class="h-full flex flex-col">
     <side-bar-menu-list-item
       content="eQuota"
