@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>Task View</div>
 </template>
 
 <script>
