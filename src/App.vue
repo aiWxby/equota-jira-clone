@@ -4,7 +4,7 @@
       <div class="h-full">
         <TheSideBar />
       </div>
-      <div class="w-full p-20">
+      <div class="w-full p-20 overflow-x-hidden">
         <RouterView />
       </div>
     </div>
