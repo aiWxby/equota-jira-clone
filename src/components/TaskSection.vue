@@ -4,9 +4,11 @@
       {{ sectionTitle }}
     </h3>
     <div
-      class="flex flex-col space-y-6 overflow-y-auto"
+      class="flex flex-col space-y-6 pb-6 overflow-y-auto"
       :class="taskListClass"
-    ></div>
+    >
+      <slot></slot>
+    </div>
   </div>
 </template>
 
