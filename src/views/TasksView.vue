@@ -7,11 +7,6 @@
         </template>
       </task-section>
     </template>
-    <task-section sectionTitle="test">
-      <template v-for="(task, index) in tasksOfSection">
-        <TaskCard :task="task" :key="index" />
-      </template>
-    </task-section>
   </div>
 </template>
 
