@@ -1,8 +1,5 @@
 <template>
-  <div
-    class="badge"
-    :class="wrapperClass"
-  >
+  <div class="badge" :class="badgeClass">
     <p class="badge_content" :class="textClass">
       {{ content }}
     </p>
@@ -15,7 +12,7 @@ export default {
   props: {
     content: String,
     textClass: String,
-    wrapperClass: String,
+    badgeClass: String,
   },
 };
 </script>
