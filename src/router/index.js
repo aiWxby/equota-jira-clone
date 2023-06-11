@@ -1,7 +1,10 @@
 import Vue from "vue";
-import { makeFirstLetterUppercase } from "@/helpers/stringOptimisers";
 
-/*                                   Routing                                  */
+/* --------------------------------- Helpers -------------------------------- */
+import { makeFirstLetterUppercase } from "@/helpers/stringOptimisers";
+/* -------------------------------------------------------------------------- */
+
+/* --------------------------------- Routing -------------------------------- */
 import VueRouter from "vue-router";
 import HomeView from "@/views/HomeView";
 import TasksView from "@/views/TasksView";
