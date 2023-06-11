@@ -7,6 +7,7 @@
           Jira Clone Task by
           <a
             href="https://www.linkedin.com/in/ertuğrul-e-7732b3222/"
+            target="_blank"
             class="text-indigo hover:text-indigo-700 transition-all duration-300"
             >Ertuğrul Elibol</a
           >
