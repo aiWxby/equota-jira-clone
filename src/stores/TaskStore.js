@@ -9,6 +9,5 @@ export const useTaskStore = defineStore("TaskStore", {
   },
   getters: {
     getTaskData: (state) => state.taskData,
-    getTasksOfSection: (index, state) => state.taskData[index].tasks,
   },
 });
