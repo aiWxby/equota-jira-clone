@@ -4,10 +4,15 @@
       <div class="text-center space-y-2">
         <h1 class="text-5xl text-gray-600 font-bold">eQuota</h1>
         <h3 class="text-lg text-gray-600">
-          Jira Clone Task by <span class="text-indigo">Ertuğrul Elibol</span>
+          Jira Clone Task by
+          <a
+            href="https://www.linkedin.com/in/ertuğrul-e-7732b3222/"
+            class="text-indigo hover:text-indigo-700 transition-all duration-300"
+            >Ertuğrul Elibol</a
+          >
         </h3>
       </div>
-      <p class="text-justify text-gray-600">
+      <p class="text-justify text-gray-600 hover:text-gray-800 cursor-default transition-colors duration-300">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ab
         harum fugiat quas necessitatibus vitae autem veniam eveniet. Totam odit
         alias saepe culpa consectetur aperiam, nesciunt incidunt illo et magni.
@@ -33,3 +38,9 @@
 <script>
 export default {};
 </script>
+
+<style scoped>
+a {
+  text-decoration: #475467 wavy underline;
+}
+</style>
