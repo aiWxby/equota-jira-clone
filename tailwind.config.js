@@ -188,6 +188,9 @@ module.exports = {
           900: "#054F31",
         },
       },
+      boxShadow: {
+        'task-card': '0px 0.5px 2px rgba(16, 24, 40, 0.3)',
+      }
     },
   },
   variants: {
