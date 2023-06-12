@@ -10,7 +10,7 @@
 export default {
   name: "AppBadge",
   props: {
-    content: String,
+    content: [String, Number],
     textClass: String,
     badgeClass: String,
   },
