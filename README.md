@@ -32,7 +32,7 @@ Günlere göre çalışma periyodu:
 	-  Periyot aralığı: **16:28 - 03:50**.
 	- **05:30** gerekli her şeyin tamamlanması, yetkililere bildirilmesi.
 
-*Periyot aralıkları **tam doğrulukta** olmamakla birlikte; olabildiğince doğru seviyededir.*
+> *Periyot aralıkları **tam doğrulukta** olmamakla birlikte; olabildiğince doğru seviyededir.*
 
 ------------
 
