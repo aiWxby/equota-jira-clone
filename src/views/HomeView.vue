@@ -1,8 +1,8 @@
 <template>
   <section class="h-full w-1/2 mx-auto">
     <div class="h-full flex flex-col items-center justify-center space-y-10">
-      <div class="text-center space-y-2">
-        <h1 class="text-5xl text-gray-600 font-bold">eQuota</h1>
+      <div class="text-center space-y-2 cursor-default group">
+        <h1 class="text-5xl text-gray-600 font-bold group-hover:text-indigo transition-colors duration-300">eQuota</h1>
         <h3 class="text-lg text-gray-600">
           Jira Clone Task by
           <a
@@ -13,15 +13,40 @@
           >
         </h3>
       </div>
-      <p class="text-justify text-gray-600 hover:text-gray-800 cursor-default transition-colors duration-300">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ab
-        harum fugiat quas necessitatibus vitae autem veniam eveniet. Totam odit
-        alias saepe culpa consectetur aperiam, nesciunt incidunt illo et magni.
-        Maiores, doloremque asperiores quisquam fuga quo velit laborum incidunt,
-        ullam sit enim numquam placeat, voluptates quis odio. Nulla laudantium,
-        odit autem doloremque perferendis accusamus! Quae alias dignissimos
-        porro consectetur iusto.
-      </p>
+      <div class="rounded-md overflow-hidden">
+        <img
+          class="w-full h-auto object-cover shadow-md rounded-md hover:scale-110 transition-all duration-300"
+          src="https://i.imgur.com/oHudhbS.png"
+          alt=""
+          loading="lazy"
+        />
+      </div>
+      <div
+        class="text-justify text-gray-600 space-y-5 cursor-default transition-colors duration-300"
+      >
+        <p class="hover:text-gray-800">
+          Günlerce süren emek, göz ve baş ağrısı, gerginlik ardından, verilen
+          görevi nihayete erdirebildiğimi bildirmekten gurur duyuyorum. Görece
+          zorlayıcı bir süreçti zira Vue 2 sürümü ve bazı paketler ve/veya
+          teknolojilerle olan yetersiz kaynak ve uyum sorunlarından doğan birçok
+          hatayla uğraştım. Bundan mütevellit, 10.06.2023 için planladığım proje
+          bitiş süremi aştığımı üzülerek belirtmekteyim.
+        </p>
+        <p class="hover:text-gray-800">
+          Proje kapsamında yaşanan birtakım hususlardan ötürü; proje
+          açıklamasına, bir "notlar" bölümü eklemeyi uygun gördüm.
+        </p>
+        <p class="hover:text-gray-800">
+          İkinci aşamayı geçebilmek için yaptığım bu proje; başarısız dahi olsa,
+          sonuna kadar arkasındayım. Süreç içerisinde hem keyif aldım hem de
+          hayli sinirlendim. Sizlerin huzunda; elimden geleni yaptığımı
+          belirterek; değerlendirme için, projeyi sizlere sunuyorum.
+        </p>
+        <p>
+          Saygılarımla, <br />
+          <b>Ertuğrul Elibol.</b>
+        </p>
+      </div>
       <!--
         TODO: Button'u component'e çevir??
       -->
