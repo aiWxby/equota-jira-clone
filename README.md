@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/oHudhbS.png)
 <h1 align="center">eQuota Jira Clone Task</h1>
-<p align="center">**Ertuğrul Elibol** tarafından oluşturuldu.</p>
+<p align="center"><b>Ertuğrul Elibol</b> tarafından oluşturuldu.</p>
 
 
 ###  Giriş
