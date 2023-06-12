@@ -40,6 +40,8 @@ Günlere göre çalışma periyodu:
 
 - Vue 2, bazı paketlerle uyumda birtakım sorunlar yaşadı. Bunlardan en önemlisi Tailwind oldu. Bu sebeple PostCSS, Autoprefixer yardımcılarının sürümlerini düşürerek yüklemek durumda kaldım.
 
+- Uyumsuz olan paketlerden bir diğeri de HeroIcons idi, npm bazında sadece Vue 3 ve React için uyarlanmıştı. Projede kullanılan Vue sürümü "2" olduğundan, HeroIcons bünyesindeki ikonları SVG formatında kullanma durumunda kaldım.
+
 - Fake API ve/veya türevi herhangi bir servis kullanılmadı. Static JavaScript objeleri kullandım.
 
 - State Management teknolojisi olarak Vuex yerine Pinia kullandım.
