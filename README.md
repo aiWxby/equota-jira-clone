@@ -47,6 +47,8 @@ Günlere göre çalışma periyodu:
 
 - Uzun bir süredir Vue tarafında çalışmadığımdan, tekrardan ısınmam biraz vakit aldı. Nihayetinde proje biraz uzadı.
 
+- Projenin ada odağı olmadığı gerekçesiyle, üzerine düşülmüş bir SEO çalışması yapılmadı. Minimal önem derecesinde hareket edildi. SEO açısında daha iyileştirilebilir olduğunun bilincide olduğumu belirtmek isterim.
+
 ------------
 
 
