@@ -57,7 +57,7 @@ Günlere göre çalışma periyodu:
 ------------
 
 
-###  Kullanılan Ana Teknolojiler
+###  Kullanılan Teknolojiler
 
 - Vue 2
 - Vue Router 3
