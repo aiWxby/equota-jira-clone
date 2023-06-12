@@ -65,7 +65,7 @@
             </template>
             <AppBadge
               content="2"
-              wrapperClass="px-1.5 py-0.5"
+              badgeClass="px-1.5 py-0.5"
               textClass="font-medium"
             />
           </side-bar-menu-list-item>

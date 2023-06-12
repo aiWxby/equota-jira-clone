@@ -1,12 +1,14 @@
 <template>
   <div class="w-80 flex flex-col space-y-8 flex-shrink-0" :class="wrapperClass">
-    <h3 class="text-[15px] font-bold text-gray uppercase" :class="titleClass">
+    <h3 class="text-[15px] font-bold text-gray uppercase px-0.5" :class="titleClass">
       {{ sectionTitle }}
     </h3>
     <div
-      class="flex flex-col space-y-6 overflow-y-auto"
+      class="flex flex-col space-y-6 pb-6 overflow-y-auto p-0.5"
       :class="taskListClass"
-    ></div>
+    >
+      <slot></slot>
+    </div>
   </div>
 </template>
 
