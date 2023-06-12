@@ -1,5 +1,7 @@
 <template>
-  <div class="p-5 flex flex-col bg-gray-25 rounded-lg shadow-task-card space-y-4">
+  <div
+    class="p-5 flex flex-col bg-gray-25 rounded-lg shadow-task-card space-y-4"
+  >
     <div class="space-y-1.5">
       <h3 class="text-xl font-bold text-gray-800 cursor-pointer">
         {{ task.title }}
@@ -122,7 +124,7 @@ export default {
     AppBadge,
   },
   props: {
-    task: Array,
+    task: Object,
   },
 };
 </script>
