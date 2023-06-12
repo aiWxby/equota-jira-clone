@@ -49,6 +49,10 @@ Günlere göre çalışma periyodu:
 
 - Projenin ada odağı olmadığı gerekçesiyle, üzerine düşülmüş bir SEO çalışması yapılmadı. Minimal önem derecesinde hareket edildi. SEO açısında daha iyileştirilebilir olduğunun bilincide olduğumu belirtmek isterim.
 
+- Animasyonlar kullanılmadı.
+
+- Yükleniyor bilgisi kullanılmadı.
+
 ------------
 
 
