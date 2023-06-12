@@ -25,7 +25,7 @@ Proje toplam saat bazında süreç: ~**25 saat**.
 
 Günlere göre çalışma periyodu:
 - Tarih: **09.06.2023**.
-	-  Periyot aralığı: **10:57 - 02:50**.
+	-  Periyot aralığı: **22:57 - 02:50**.
 - Tarih: **10.06.2023**.
 	-  Periyot aralığı: **15:50 - 03:00**.
 - Tarih: **11.06.2023**.
