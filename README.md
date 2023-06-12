@@ -2,7 +2,6 @@
 <h1 align="center">eQuota Jira Clone Task</h1>
 <p align="center"><b>Ertuğrul Elibol</b> tarafından oluşturuldu.</p>
 
-
 ###  Giriş
 
 <p align="justify">Günlerce süren emek, göz ve baş ağrısı, gerginlik ardından, verilen görevi nihayete erdirebildiğimi bildirmekten gurur duyuyorum. Görece zorlayıcı bir süreçti zira Vue 2 sürümü ve bazı paketler ve/veya teknolojilerle olan yetersiz kaynak ve uyum sorunlarından doğan birçok hatayla uğraştım. Bundan mütevellit, 10.06.2023 için planladığım proje bitiş süremi aştığımı üzülerek belirtmekteyim.
@@ -11,9 +10,10 @@ Proje kapsamında yaşanan birtakım hususlardan ötürü; proje açıklamasına
 
 İkinci aşamayı geçebilmek için yaptığım bu proje; başarısız dahi olsa, sonuna kadar arkasındayım. Süreç içerisinde hem keyif aldım hem de hayli sinirlendim. Sizlerin huzunda; elimden geleni yaptığımı belirterek; değerlendirme için, projeyi sizlere sunuyorum.</p>
 
-Saygılarımla,
+Saygılarımla, <br />
 Ertuğrul Elibol.
 
+> Projenin deploy edilmiş haline [bu bağlantıdan](https://equota-task.netlify.app "bu bağlantıdan") ulaşabilirsiniz
 ------------
 
 
