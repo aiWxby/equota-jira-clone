@@ -19,8 +19,8 @@ Ertuğrul Elibol.
 
 ###  Süreç
 
-Proje başlangıç tarihi: **09.06.2023, ~10:57**.
-Proje bitiş tarihi: **12.06.2023, ~03:50**.
+Proje başlangıç tarihi: **09.06.2023, ~10:57**. <br />
+Proje bitiş tarihi: **12.06.2023, ~03:50**.<br />
 Proje toplam saat bazında süreç: ~**25 saat**.
 
 Günlere göre çalışma periyodu:
