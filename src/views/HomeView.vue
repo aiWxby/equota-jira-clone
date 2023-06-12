@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full w-1/2 mx-auto">
+  <section class="h-full w-1/2 mx-auto">
     <div class="h-full flex flex-col items-center justify-center space-y-10">
       <div class="text-center space-y-2">
         <h1 class="text-5xl text-gray-600 font-bold">eQuota</h1>
@@ -33,7 +33,7 @@
         </button>
       </a>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

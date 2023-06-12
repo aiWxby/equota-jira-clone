@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full w-full flex">
+  <section class="h-full w-full flex">
     <TaskGenerator />
     <div class="h-full flex overflow-y-hidden overflow-x-auto pb-4">
       <draggable class="flex" group="sections" tag="div">
@@ -27,7 +27,7 @@
         </template>
       </draggable>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

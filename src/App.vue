@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <div class="h-screen flex">
-      <div class="h-full">
+      <header class="h-full">
         <TheSideBar />
-      </div>
-      <div class="w-full p-20 overflow-x-hidden">
+      </header>
+      <main class="w-full p-20 overflow-x-hidden">
         <RouterView />
-      </div>
+      </main>
     </div>
   </div>
 </template>

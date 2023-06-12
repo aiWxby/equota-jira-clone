@@ -1,7 +1,7 @@
 <template>
-  <div class="h-full w-80 bg-white p-6">
+  <nav class="h-full w-80 bg-white p-6">
     <SideBarMenuList />
-  </div>
+  </nav>
 </template>
 
 <script>
