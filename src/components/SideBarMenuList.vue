@@ -64,7 +64,7 @@
               </svg>
             </template>
             <AppBadge
-              content="2"
+              :content="taskCount"
               badgeClass="px-1.5 py-0.5"
               textClass="font-medium"
             />
@@ -102,11 +102,17 @@
 import SideBarMenuListItem from "./SideBarMenuListItem.vue";
 import AppBadge from "./AppBadge.vue";
 
+import { useTaskStore } from "@/stores/TaskStore";
+import { mapState } from "pinia";
+
 export default {
   name: "SideBarMenuList",
   components: {
     SideBarMenuListItem,
     AppBadge,
+  },
+  computed: {
+    ...mapState(useTaskStore, { taskCount: "getTaskCount" }),
   },
 };
 </script>
