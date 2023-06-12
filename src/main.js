@@ -1,9 +1,13 @@
-import Vue from 'vue'
-import App from './App.vue'
-import './assets/tailwind.css';
+import Vue from "vue";
+import App from "./App.vue";
+import "./assets/tailwind.css";
+import router from "@/router"
+import pinia from "@/stores"
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  router,
+  pinia,
+  render: (h) => h(App),
+}).$mount("#app");
