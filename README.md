@@ -30,6 +30,7 @@ Günlere göre çalışma periyodu:
 	-  Periyot aralığı: **15:50 - 03:00**.
 - Tarih: **11.06.2023**.
 	-  Periyot aralığı: **16:28 - 03:50**.
+	- **05:30** gerekli her şeyin tamamlanması, yetkililere bildirilmesi.
 
 *Periyot aralıkları **tam doğrulukta** olmamakla birlikte; olabildiğince doğru seviyededir.*
 
