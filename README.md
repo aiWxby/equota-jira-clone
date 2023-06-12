@@ -4,7 +4,7 @@
 
 ###  Giriş
 
-<p align="justify">Günlerce süren emek, göz ve baş ağrısı, gerginlik ardından, verilen görevi nihayete erdirebildiğimi bildirmekten gurur duyuyorum. Görece zorlayıcı bir süreçti zira Vue 2 sürümü ve bazı paketler ve/veya teknolojilerle olan yetersiz kaynak ve uyum sorunlarından doğan birçok hatayla uğraştım. Bundan mütevellit, 10.06.2023 için planladığım proje bitiş süremi aştığımı üzülerek belirtmekteyim.
+<p align="justify">Günlerce süren emeğin ardından bana verilen görevi nihayete erdirebildiğimi bildirmekten gurur duyuyorum. Hem keyifli hem de biraz zorlayıcı bir süreç oldu zira Vue 2 sürümü ve bazı paketler ve/veya teknolojilerle olan yetersiz kaynak ve uyum sorunlarından doğan birçok hatayla uğraştım. Bundan mütevellit, 10.06.2023 için planladığım proje bitiş süremi aştığımı üzülerek belirtmekteyim.
 
 Proje kapsamında yaşanan birtakım hususlardan ötürü; proje açıklamasına, bir "notlar" bölümü eklemeyi uygun gördüm.
 
